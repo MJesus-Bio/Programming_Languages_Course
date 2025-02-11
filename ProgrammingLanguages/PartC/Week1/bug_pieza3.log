@@ -1,0 +1,23 @@
+NoMethodError: undefined method `[]' for nil:NilClass
+---< backtrace of Ruby side >-----
+D:/Users/Marx Steel/Documents/Libros_y_papers/Computer-Science-OSSU/ProgrammingLanguages/PartC/Week1/hw6provided.rb:215:in `block in store_current'
+D:/Users/Marx Steel/Documents/Libros_y_papers/Computer-Science-OSSU/ProgrammingLanguages/PartC/Week1/hw6provided.rb:213:in `each'
+D:/Users/Marx Steel/Documents/Libros_y_papers/Computer-Science-OSSU/ProgrammingLanguages/PartC/Week1/hw6provided.rb:213:in `store_current'
+D:/Users/Marx Steel/Documents/Libros_y_papers/Computer-Science-OSSU/ProgrammingLanguages/PartC/Week1/hw6provided.rb:193:in `drop_all_the_way'
+D:/Users/Marx Steel/Documents/Libros_y_papers/Computer-Science-OSSU/ProgrammingLanguages/PartC/Week1/hw6provided.rb:308:in `block in key_bindings'
+C:/Ruby22-x64/lib/ruby/2.2.0/tk/event.rb:494:in `call'
+C:/Ruby22-x64/lib/ruby/2.2.0/tk/event.rb:494:in `eval_cmd'
+C:/Ruby22-x64/lib/ruby/2.2.0/tk/event.rb:494:in `block in install_bind_for_event_class'
+C:/Ruby22-x64/lib/ruby/2.2.0/tk.rb:1460:in `call'
+C:/Ruby22-x64/lib/ruby/2.2.0/tk.rb:1460:in `eval_cmd'
+C:/Ruby22-x64/lib/ruby/2.2.0/tk.rb:1460:in `cb_eval'
+C:/Ruby22-x64/lib/ruby/2.2.0/tk.rb:1407:in `call'
+C:/Ruby22-x64/lib/ruby/2.2.0/tk.rb:1611:in `block in callback'
+C:/Ruby22-x64/lib/ruby/2.2.0/tk.rb:1610:in `catch'
+C:/Ruby22-x64/lib/ruby/2.2.0/tk.rb:1610:in `callback'
+C:/Ruby22-x64/lib/ruby/2.2.0/tk.rb:1305:in `mainloop'
+C:/Ruby22-x64/lib/ruby/2.2.0/tk.rb:1305:in `block in <module:TkCore>'
+---< backtrace of Tk side >-------
+    invoked from within
+"rb_out c00012 "
+    (command bound to event)

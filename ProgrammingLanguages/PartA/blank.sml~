@@ -1,0 +1,4 @@
+fun null xs =
+    if null xs
+    then true
+    else false
